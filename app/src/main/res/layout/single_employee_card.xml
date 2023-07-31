@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/employeeViewCard"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="5dp"
+    android:layout_marginBottom="4dp"
+    >
+
+    <ImageView
+        android:id="@+id/employeeImage"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/employeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"
+            android:text="Peter Lewandowski"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/employeePosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VP of Tech Engdineering"
+            android:gravity="left"
+            />
+    </LinearLayout>
+</LinearLayout>
